@@ -36,5 +36,10 @@ namespace Quản_lý_cà_phê
         {
 
         }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
