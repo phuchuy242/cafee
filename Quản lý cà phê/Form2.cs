@@ -41,5 +41,35 @@ namespace Quản_lý_cà_phê
         {
 
         }
+
+        private void tínhTiềnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
