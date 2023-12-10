@@ -88,9 +88,9 @@
             this.thêmTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sửaThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xóaTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thuNgânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.củaHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -707,6 +707,13 @@
             this.xóaTàiKhoảnToolStripMenuItem.Text = "Xóa tài khoản";
             this.xóaTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.xóaTàiKhoảnToolStripMenuItem_Click);
             // 
+            // đăngXuấtToolStripMenuItem
+            // 
+            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
+            // 
             // thuNgânToolStripMenuItem
             // 
             this.thuNgânToolStripMenuItem.Name = "thuNgânToolStripMenuItem";
@@ -718,13 +725,6 @@
             this.củaHàngToolStripMenuItem.Name = "củaHàngToolStripMenuItem";
             this.củaHàngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.củaHàngToolStripMenuItem.Text = "Của hàng";
-            // 
-            // đăngXuấtToolStripMenuItem
-            // 
-            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
-            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // Giaodien
             // 
@@ -740,6 +740,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "Giaodien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Fast Track Coffee 2019";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);

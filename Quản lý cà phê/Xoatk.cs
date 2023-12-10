@@ -33,5 +33,10 @@ namespace Quản_lý_cà_phê
 
             giaodienForm.Show(); // Hiển thị cửa sổ đã tồn tại hoặc mới được tạo
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
