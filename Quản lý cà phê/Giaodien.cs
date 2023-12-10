@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Quản_lý_cà_phê
 {
-    public partial class Form2 : Form
+    public partial class Giaodien : Form
     {
-        public Form2()
+        public Giaodien()
         {
             InitializeComponent();
         }
@@ -70,6 +70,21 @@ namespace Quản_lý_cà_phê
         private void tabPage17_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void xóaTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Xoatk f = new Xoatk();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login f = new Login();
+            this.Hide();
+            DialogResult dialogResult = f.ShowDialog();
         }
     }
 }

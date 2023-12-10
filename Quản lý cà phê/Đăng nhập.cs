@@ -30,10 +30,9 @@ namespace Quản_lý_cà_phê
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
+            Giaodien f = new Giaodien();
             this.Hide();
-            f.ShowDialog();
-            this.Show();
+            DialogResult dialogResult = f.ShowDialog();
 
         }
 

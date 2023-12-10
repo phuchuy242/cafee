@@ -1,6 +1,6 @@
 ﻿namespace Quản_lý_cà_phê
 {
-    partial class Form2
+    partial class Giaodien
     {
         /// <summary>
         /// Required designer variable.
@@ -55,6 +55,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -63,13 +64,6 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage8 = new System.Windows.Forms.TabPage();
             this.tabPage9 = new System.Windows.Forms.TabPage();
@@ -81,15 +75,22 @@
             this.tabPage15 = new System.Windows.Forms.TabPage();
             this.tabPage16 = new System.Windows.Forms.TabPage();
             this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage18 = new System.Windows.Forms.TabPage();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.hệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.thuNgânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.củaHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thêmTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sửaThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xóaTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thuNgânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.củaHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -366,6 +367,17 @@
             this.panel4.TabIndex = 11;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(44, 66);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(121, 20);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "Xem trước khi in";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(239, 60);
@@ -452,77 +464,6 @@
             this.tabPage1.Text = "Thu ngân";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Sản phẩm";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Nhân viên";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Khách hàng";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Hóa đơn :2";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 25);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Hóa đơn";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 25);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Doanh thu";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(44, 66);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(121, 20);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Xem trước khi in";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // tabControl2
             // 
@@ -643,6 +584,66 @@
             this.tabPage17.UseVisualStyleBackColor = true;
             this.tabPage17.Click += new System.EventHandler(this.tabPage17_Click);
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1118, 347);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Sản phẩm";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1118, 347);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Nhân viên";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1118, 347);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Khách hàng";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1118, 347);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Hóa đơn :2";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 25);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1118, 347);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Hóa đơn";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 25);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1118, 347);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Doanh thu";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
             // tabPage18
             // 
             this.tabPage18.Location = new System.Drawing.Point(4, 25);
@@ -681,22 +682,11 @@
             this.hệThốngToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thêmTàiKhoảnToolStripMenuItem,
             this.sửaThôngTinToolStripMenuItem,
-            this.xóaTàiKhoảnToolStripMenuItem});
+            this.xóaTàiKhoảnToolStripMenuItem,
+            this.đăngXuấtToolStripMenuItem});
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
             this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
-            // 
-            // thuNgânToolStripMenuItem
-            // 
-            this.thuNgânToolStripMenuItem.Name = "thuNgânToolStripMenuItem";
-            this.thuNgânToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
-            this.thuNgânToolStripMenuItem.Text = "Thu ngân";
-            // 
-            // củaHàngToolStripMenuItem
-            // 
-            this.củaHàngToolStripMenuItem.Name = "củaHàngToolStripMenuItem";
-            this.củaHàngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
-            this.củaHàngToolStripMenuItem.Text = "Của hàng";
             // 
             // thêmTàiKhoảnToolStripMenuItem
             // 
@@ -715,8 +705,28 @@
             this.xóaTàiKhoảnToolStripMenuItem.Name = "xóaTàiKhoảnToolStripMenuItem";
             this.xóaTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.xóaTàiKhoảnToolStripMenuItem.Text = "Xóa tài khoản";
+            this.xóaTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.xóaTàiKhoảnToolStripMenuItem_Click);
             // 
-            // Form2
+            // thuNgânToolStripMenuItem
+            // 
+            this.thuNgânToolStripMenuItem.Name = "thuNgânToolStripMenuItem";
+            this.thuNgânToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.thuNgânToolStripMenuItem.Text = "Thu ngân";
+            // 
+            // củaHàngToolStripMenuItem
+            // 
+            this.củaHàngToolStripMenuItem.Name = "củaHàngToolStripMenuItem";
+            this.củaHàngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
+            this.củaHàngToolStripMenuItem.Text = "Của hàng";
+            // 
+            // đăngXuấtToolStripMenuItem
+            // 
+            this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
+            this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
+            // 
+            // Giaodien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -729,7 +739,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Form2";
+            this.Name = "Giaodien";
             this.Text = "Fast Track Coffee 2019";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
@@ -815,5 +825,6 @@
         private System.Windows.Forms.ToolStripMenuItem xóaTàiKhoảnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thuNgânToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem củaHàngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
     }
 }
