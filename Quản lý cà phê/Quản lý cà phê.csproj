@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Themtk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Themtk.Designer.cs">
+      <DependentUpon>Themtk.cs</DependentUpon>
+    </Compile>
     <Compile Include="Xoatk.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Themtk.resx">
+      <DependentUpon>Themtk.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Xoatk.resx">
       <DependentUpon>Xoatk.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +106,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-09-12 225445.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cappuccino-1-5486-1637226659-2711-1641273732.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

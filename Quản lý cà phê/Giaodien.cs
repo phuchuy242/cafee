@@ -136,5 +136,58 @@ namespace Quản_lý_cà_phê
         {
             Application.Exit();
         }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hệThốngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void thêmTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Themtk f = new Themtk();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

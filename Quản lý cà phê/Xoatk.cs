@@ -20,21 +20,58 @@ namespace Quản_lý_cà_phê
 
         private void Xoatk_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // Hủy việc đóng cửa sổ hiện tại và mở cửa sổ mới
-            e.Cancel = true; // Hủy sự kiện đóng
-
-            // Kiểm tra xem cửa sổ Giaodien đã tồn tại và không bị đóng
-            if (giaodienForm == null || giaodienForm.IsDisposed)
+            e.Cancel = true; 
+                                    if (giaodienForm == null || giaodienForm.IsDisposed)
             {
-                // Nếu không tồn tại hoặc đã bị đóng, tạo một cửa sổ mới
-                giaodienForm = new Giaodien();
-                giaodienForm.FormClosed += (s, args) => this.Close(); // Đóng cửa sổ hiện tại khi cửa sổ mới đóng
-            }
 
-            giaodienForm.Show(); // Hiển thị cửa sổ đã tồn tại hoặc mới được tạo
+                giaodienForm = new Giaodien();
+                giaodienForm.FormClosed += (s, args) => this.Close(); 
+            }
+                    giaodienForm.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Giaodien f = new Giaodien();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
