@@ -86,5 +86,26 @@ namespace Quản_lý_cà_phê
             this.Hide();
             DialogResult dialogResult = f.ShowDialog();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void tabPage8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fileSystemWatcher1_Changed(object sender, System.IO.FileSystemEventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
+
 }
