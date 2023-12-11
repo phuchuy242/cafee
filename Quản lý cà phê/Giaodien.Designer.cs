@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
@@ -37,6 +38,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -51,6 +54,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -58,10 +62,52 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.radioButton11 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.tabPage16 = new System.Windows.Forms.TabPage();
+            this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.tabPage19 = new System.Windows.Forms.TabPage();
             this.hệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thêmTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sửaThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,50 +116,22 @@
             this.thuNgânToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.củaHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.tabPage19 = new System.Windows.Forms.TabPage();
-            this.tabPage18 = new System.Windows.Forms.TabPage();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage17 = new System.Windows.Forms.TabPage();
-            this.tabPage16 = new System.Windows.Forms.TabPage();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.tabPage14 = new System.Windows.Forms.TabPage();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.tabControl2 = new System.Windows.Forms.TabControl();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
-            this.radioButton11 = new System.Windows.Forms.RadioButton();
-            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage10.SuspendLayout();
             this.tabControl2.SuspendLayout();
+            this.tabPage10.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -124,9 +142,9 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(0, 31);
+            this.panel1.Location = new System.Drawing.Point(6, 31);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(309, 115);
+            this.panel1.Size = new System.Drawing.Size(303, 115);
             this.panel1.TabIndex = 0;
             // 
             // comboBox3
@@ -210,8 +228,8 @@
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.dateTimePicker4);
-            this.panel3.Controls.Add(this.dateTimePicker3);
+            this.panel3.Controls.Add(this.textBox14);
+            this.panel3.Controls.Add(this.textBox13);
             this.panel3.Controls.Add(this.dateTimePicker2);
             this.panel3.Controls.Add(this.dateTimePicker1);
             this.panel3.Controls.Add(this.label9);
@@ -222,6 +240,22 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(406, 114);
             this.panel3.TabIndex = 10;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker2.Location = new System.Drawing.Point(82, 71);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(198, 22);
+            this.dateTimePicker2.TabIndex = 11;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(82, 24);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(198, 22);
+            this.dateTimePicker1.TabIndex = 10;
             // 
             // label9
             // 
@@ -341,6 +375,7 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.button2);
             this.panel4.Controls.Add(this.checkBox1);
             this.panel4.Controls.Add(this.button1);
             this.panel4.Controls.Add(this.radioButton2);
@@ -350,6 +385,16 @@
             this.panel4.Size = new System.Drawing.Size(406, 114);
             this.panel4.TabIndex = 11;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(304, 56);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(69, 30);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Thoát";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // checkBox1
             // 
@@ -364,7 +409,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(239, 60);
+            this.button1.Location = new System.Drawing.Point(190, 56);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 30);
             this.button1.TabIndex = 3;
@@ -416,41 +461,538 @@
             this.panel5.Controls.Add(this.tabControl1);
             this.panel5.Location = new System.Drawing.Point(6, 152);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1139, 382);
+            this.panel5.Size = new System.Drawing.Size(1127, 452);
             this.panel5.TabIndex = 14;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
-            // dateTimePicker1
+            // tabControl1
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(82, 24);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(198, 22);
-            this.dateTimePicker1.TabIndex = 10;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.tabPage6);
+            this.tabControl1.Controls.Add(this.tabPage7);
+            this.tabControl1.Controls.Add(this.tabPage18);
+            this.tabControl1.Controls.Add(this.tabPage19);
+            this.tabControl1.Location = new System.Drawing.Point(10, 3);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1126, 447);
+            this.tabControl1.TabIndex = 0;
             // 
-            // dateTimePicker2
+            // tabPage1
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(82, 71);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(198, 22);
-            this.dateTimePicker2.TabIndex = 11;
+            this.tabPage1.Controls.Add(this.tabControl2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Thu ngân";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // dateTimePicker3
+            // tabControl2
             // 
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker3.Location = new System.Drawing.Point(325, 26);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(73, 22);
-            this.dateTimePicker3.TabIndex = 12;
+            this.tabControl2.Controls.Add(this.tabPage10);
+            this.tabControl2.Controls.Add(this.tabPage11);
+            this.tabControl2.Controls.Add(this.tabPage12);
+            this.tabControl2.Controls.Add(this.tabPage13);
+            this.tabControl2.Controls.Add(this.tabPage14);
+            this.tabControl2.Controls.Add(this.tabPage15);
+            this.tabControl2.Controls.Add(this.tabPage16);
+            this.tabControl2.Controls.Add(this.tabPage17);
+            this.tabControl2.Location = new System.Drawing.Point(3, 1);
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            this.tabControl2.Size = new System.Drawing.Size(1123, 421);
+            this.tabControl2.TabIndex = 0;
             // 
-            // dateTimePicker4
+            // tabPage10
             // 
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker4.Location = new System.Drawing.Point(325, 71);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(73, 22);
-            this.dateTimePicker4.TabIndex = 13;
+            this.tabPage10.Controls.Add(this.panel8);
+            this.tabPage10.Controls.Add(this.panel7);
+            this.tabPage10.Controls.Add(this.panel6);
+            this.tabPage10.Location = new System.Drawing.Point(4, 25);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage10.TabIndex = 2;
+            this.tabPage10.Text = "Bàn mới";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            this.tabPage10.Click += new System.EventHandler(this.tabPage10_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.textBox12);
+            this.panel8.Controls.Add(this.textBox11);
+            this.panel8.Controls.Add(this.textBox10);
+            this.panel8.Controls.Add(this.textBox9);
+            this.panel8.Controls.Add(this.label18);
+            this.panel8.Controls.Add(this.label16);
+            this.panel8.Controls.Add(this.label15);
+            this.panel8.Controls.Add(this.label14);
+            this.panel8.ForeColor = System.Drawing.Color.Red;
+            this.panel8.Location = new System.Drawing.Point(650, 308);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(455, 78);
+            this.panel8.TabIndex = 2;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(336, -2);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(88, 22);
+            this.textBox12.TabIndex = 22;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(336, 36);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(88, 22);
+            this.textBox11.TabIndex = 21;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(109, 39);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(88, 22);
+            this.textBox10.TabIndex = 20;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(109, 1);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(88, 22);
+            this.textBox9.TabIndex = 19;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(31, 42);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(80, 16);
+            this.label18.TabIndex = 18;
+            this.label18.Text = "Phí dịch vụ : ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(263, 4);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(67, 16);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "Giảm giá :";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(263, 42);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(47, 16);
+            this.label15.TabIndex = 16;
+            this.label15.Text = "Thuế : ";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(31, 4);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(72, 16);
+            this.label14.TabIndex = 15;
+            this.label14.Text = "Tổng tiền : ";
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.textBox4);
+            this.panel7.Controls.Add(this.textBox8);
+            this.panel7.Controls.Add(this.textBox7);
+            this.panel7.Controls.Add(this.textBox6);
+            this.panel7.Controls.Add(this.textBox5);
+            this.panel7.Controls.Add(this.textBox3);
+            this.panel7.Location = new System.Drawing.Point(650, 5);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(456, 298);
+            this.panel7.TabIndex = 1;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.White;
+            this.textBox4.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.textBox4.Location = new System.Drawing.Point(388, 3);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(51, 22);
+            this.textBox4.TabIndex = 6;
+            this.textBox4.Text = "User";
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.White;
+            this.textBox8.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.textBox8.Location = new System.Drawing.Point(50, 3);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(119, 22);
+            this.textBox8.TabIndex = 5;
+            this.textBox8.Text = "Tên hàng";
+            this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.White;
+            this.textBox7.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.textBox7.Location = new System.Drawing.Point(165, 3);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(51, 22);
+            this.textBox7.TabIndex = 4;
+            this.textBox7.Text = "S.L";
+            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.White;
+            this.textBox6.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.textBox6.Location = new System.Drawing.Point(213, 3);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(81, 22);
+            this.textBox6.TabIndex = 3;
+            this.textBox6.Text = "Giá bán";
+            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.White;
+            this.textBox5.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.textBox5.Location = new System.Drawing.Point(290, 3);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(101, 22);
+            this.textBox5.TabIndex = 2;
+            this.textBox5.Text = "Thành tiền";
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.White;
+            this.textBox3.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.textBox3.Location = new System.Drawing.Point(20, 3);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(34, 22);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.Text = "#";
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.vScrollBar1);
+            this.panel6.Controls.Add(this.radioButton11);
+            this.panel6.Controls.Add(this.radioButton10);
+            this.panel6.Controls.Add(this.radioButton9);
+            this.panel6.Controls.Add(this.radioButton8);
+            this.panel6.Controls.Add(this.radioButton7);
+            this.panel6.Controls.Add(this.radioButton6);
+            this.panel6.Controls.Add(this.radioButton5);
+            this.panel6.Controls.Add(this.radioButton4);
+            this.panel6.Controls.Add(this.radioButton3);
+            this.panel6.Location = new System.Drawing.Point(3, 5);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(640, 298);
+            this.panel6.TabIndex = 0;
+            // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(611, 93);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(21, 100);
+            this.vScrollBar1.TabIndex = 22;
+            // 
+            // radioButton11
+            // 
+            this.radioButton11.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton11.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton11.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton11.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton11.Location = new System.Drawing.Point(215, 208);
+            this.radioButton11.Name = "radioButton11";
+            this.radioButton11.Size = new System.Drawing.Size(147, 70);
+            this.radioButton11.TabIndex = 21;
+            this.radioButton11.Text = "8";
+            this.radioButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton11.UseVisualStyleBackColor = true;
+            // 
+            // radioButton10
+            // 
+            this.radioButton10.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton10.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton10.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton10.Location = new System.Drawing.Point(402, 208);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(147, 70);
+            this.radioButton10.TabIndex = 20;
+            this.radioButton10.Text = "9";
+            this.radioButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton10.UseVisualStyleBackColor = true;
+            // 
+            // radioButton9
+            // 
+            this.radioButton9.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton9.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton9.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton9.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton9.Location = new System.Drawing.Point(20, 15);
+            this.radioButton9.Name = "radioButton9";
+            this.radioButton9.Size = new System.Drawing.Size(147, 70);
+            this.radioButton9.TabIndex = 19;
+            this.radioButton9.Text = "1";
+            this.radioButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton9.UseVisualStyleBackColor = true;
+            // 
+            // radioButton8
+            // 
+            this.radioButton8.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton8.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton8.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton8.Location = new System.Drawing.Point(215, 15);
+            this.radioButton8.Name = "radioButton8";
+            this.radioButton8.Size = new System.Drawing.Size(147, 70);
+            this.radioButton8.TabIndex = 18;
+            this.radioButton8.Text = "2";
+            this.radioButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton8.UseVisualStyleBackColor = true;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton7.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton7.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton7.Location = new System.Drawing.Point(402, 15);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(147, 70);
+            this.radioButton7.TabIndex = 17;
+            this.radioButton7.Text = "3";
+            this.radioButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton6.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton6.Location = new System.Drawing.Point(20, 108);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(147, 70);
+            this.radioButton6.TabIndex = 16;
+            this.radioButton6.Text = "4";
+            this.radioButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton5.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton5.Location = new System.Drawing.Point(402, 108);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(147, 70);
+            this.radioButton5.TabIndex = 15;
+            this.radioButton5.Text = "6";
+            this.radioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton4.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton4.Location = new System.Drawing.Point(20, 208);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(147, 70);
+            this.radioButton4.TabIndex = 14;
+            this.radioButton4.Text = "7";
+            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.radioButton3.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.radioButton3.Location = new System.Drawing.Point(215, 108);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(147, 70);
+            this.radioButton3.TabIndex = 13;
+            this.radioButton3.Text = "5";
+            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.Location = new System.Drawing.Point(4, 25);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage11.TabIndex = 3;
+            this.tabPage11.Text = "Cập nhật";
+            this.tabPage11.UseVisualStyleBackColor = true;
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.Location = new System.Drawing.Point(4, 25);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage12.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage12.TabIndex = 4;
+            this.tabPage12.Text = "Xóa";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.Location = new System.Drawing.Point(4, 25);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage13.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage13.TabIndex = 5;
+            this.tabPage13.Text = "Chuyển";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Location = new System.Drawing.Point(4, 25);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage14.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage14.TabIndex = 6;
+            this.tabPage14.Text = "Ghép";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Location = new System.Drawing.Point(4, 25);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage15.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage15.TabIndex = 7;
+            this.tabPage15.Text = "Thanh toán";
+            this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // tabPage16
+            // 
+            this.tabPage16.Location = new System.Drawing.Point(4, 25);
+            this.tabPage16.Name = "tabPage16";
+            this.tabPage16.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage16.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage16.TabIndex = 8;
+            this.tabPage16.Text = "In bếp";
+            this.tabPage16.UseVisualStyleBackColor = true;
+            // 
+            // tabPage17
+            // 
+            this.tabPage17.Location = new System.Drawing.Point(4, 25);
+            this.tabPage17.Name = "tabPage17";
+            this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage17.Size = new System.Drawing.Size(1115, 392);
+            this.tabPage17.TabIndex = 9;
+            this.tabPage17.Text = "Theo dõi";
+            this.tabPage17.UseVisualStyleBackColor = true;
+            this.tabPage17.Click += new System.EventHandler(this.tabPage17_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Sản phẩm";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Nhân viên";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Khách hàng";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 25);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Hóa đơn :2";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 25);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Hóa đơn";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Location = new System.Drawing.Point(4, 25);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Doanh thu";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // tabPage18
+            // 
+            this.tabPage18.Location = new System.Drawing.Point(4, 25);
+            this.tabPage18.Name = "tabPage18";
+            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage18.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage18.TabIndex = 7;
+            this.tabPage18.Text = "Đặt bàn";
+            this.tabPage18.UseVisualStyleBackColor = true;
+            // 
+            // tabPage19
+            // 
+            this.tabPage19.Location = new System.Drawing.Point(4, 25);
+            this.tabPage19.Name = "tabPage19";
+            this.tabPage19.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage19.Size = new System.Drawing.Size(1118, 418);
+            this.tabPage19.TabIndex = 8;
+            this.tabPage19.Text = "Đơn hàng";
+            this.tabPage19.UseVisualStyleBackColor = true;
             // 
             // hệThốngToolStripMenuItem
             // 
@@ -459,6 +1001,7 @@
             this.sửaThôngTinToolStripMenuItem,
             this.xóaTàiKhoảnToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem});
+            this.hệThốngToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Highlight;
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
             this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
@@ -491,12 +1034,15 @@
             // 
             // thuNgânToolStripMenuItem
             // 
+            this.thuNgânToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Highlight;
             this.thuNgânToolStripMenuItem.Name = "thuNgânToolStripMenuItem";
             this.thuNgânToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.thuNgânToolStripMenuItem.Text = "Thu ngân";
+            this.thuNgânToolStripMenuItem.Click += new System.EventHandler(this.thuNgânToolStripMenuItem_Click);
             // 
             // củaHàngToolStripMenuItem
             // 
+            this.củaHàngToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Highlight;
             this.củaHàngToolStripMenuItem.Name = "củaHàngToolStripMenuItem";
             this.củaHàngToolStripMenuItem.Size = new System.Drawing.Size(85, 24);
             this.củaHàngToolStripMenuItem.Text = "Của hàng";
@@ -510,387 +1056,38 @@
             this.củaHàngToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1158, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1150, 28);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // fileSystemWatcher1
+            // contextMenuStrip1
             // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
-            this.fileSystemWatcher1.Changed += new System.IO.FileSystemEventHandler(this.fileSystemWatcher1_Changed);
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // tabPage19
+            // textBox13
             // 
-            this.tabPage19.Location = new System.Drawing.Point(4, 25);
-            this.tabPage19.Name = "tabPage19";
-            this.tabPage19.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage19.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage19.TabIndex = 8;
-            this.tabPage19.Text = "Đơn hàng";
-            this.tabPage19.UseVisualStyleBackColor = true;
+            this.textBox13.Location = new System.Drawing.Point(332, 24);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(56, 22);
+            this.textBox13.TabIndex = 12;
+            this.textBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // tabPage18
+            // textBox14
             // 
-            this.tabPage18.Location = new System.Drawing.Point(4, 25);
-            this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage18.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage18.TabIndex = 7;
-            this.tabPage18.Text = "Đặt bàn";
-            this.tabPage18.UseVisualStyleBackColor = true;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Location = new System.Drawing.Point(4, 25);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Doanh thu";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 25);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Hóa đơn";
-            this.tabPage6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Hóa đơn :2";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Khách hàng";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Nhân viên";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Sản phẩm";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Controls.Add(this.tabPage6);
-            this.tabControl1.Controls.Add(this.tabPage7);
-            this.tabControl1.Controls.Add(this.tabPage18);
-            this.tabControl1.Controls.Add(this.tabPage19);
-            this.tabControl1.Location = new System.Drawing.Point(10, 3);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1126, 376);
-            this.tabControl1.TabIndex = 0;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.tabControl2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1118, 347);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Thu ngân";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
-            // 
-            // tabPage17
-            // 
-            this.tabPage17.Location = new System.Drawing.Point(4, 25);
-            this.tabPage17.Name = "tabPage17";
-            this.tabPage17.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage17.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage17.TabIndex = 9;
-            this.tabPage17.Text = "Theo dõi";
-            this.tabPage17.UseVisualStyleBackColor = true;
-            this.tabPage17.Click += new System.EventHandler(this.tabPage17_Click);
-            // 
-            // tabPage16
-            // 
-            this.tabPage16.Location = new System.Drawing.Point(4, 25);
-            this.tabPage16.Name = "tabPage16";
-            this.tabPage16.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage16.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage16.TabIndex = 8;
-            this.tabPage16.Text = "In bếp";
-            this.tabPage16.UseVisualStyleBackColor = true;
-            // 
-            // tabPage15
-            // 
-            this.tabPage15.Location = new System.Drawing.Point(4, 25);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage15.TabIndex = 7;
-            this.tabPage15.Text = "Thanh toán";
-            this.tabPage15.UseVisualStyleBackColor = true;
-            // 
-            // tabPage14
-            // 
-            this.tabPage14.Location = new System.Drawing.Point(4, 25);
-            this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage14.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage14.TabIndex = 6;
-            this.tabPage14.Text = "Ghép";
-            this.tabPage14.UseVisualStyleBackColor = true;
-            // 
-            // tabPage13
-            // 
-            this.tabPage13.Location = new System.Drawing.Point(4, 25);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage13.TabIndex = 5;
-            this.tabPage13.Text = "Chuyển";
-            this.tabPage13.UseVisualStyleBackColor = true;
-            // 
-            // tabPage12
-            // 
-            this.tabPage12.Location = new System.Drawing.Point(4, 25);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage12.TabIndex = 4;
-            this.tabPage12.Text = "Xóa";
-            this.tabPage12.UseVisualStyleBackColor = true;
-            // 
-            // tabPage11
-            // 
-            this.tabPage11.Location = new System.Drawing.Point(4, 25);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage11.TabIndex = 3;
-            this.tabPage11.Text = "Cập nhật";
-            this.tabPage11.UseVisualStyleBackColor = true;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Controls.Add(this.panel7);
-            this.tabPage10.Controls.Add(this.panel6);
-            this.tabPage10.Location = new System.Drawing.Point(4, 25);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1115, 317);
-            this.tabPage10.TabIndex = 2;
-            this.tabPage10.Text = "Bàn mới";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // tabControl2
-            // 
-            this.tabControl2.Controls.Add(this.tabPage10);
-            this.tabControl2.Controls.Add(this.tabPage11);
-            this.tabControl2.Controls.Add(this.tabPage12);
-            this.tabControl2.Controls.Add(this.tabPage13);
-            this.tabControl2.Controls.Add(this.tabPage14);
-            this.tabControl2.Controls.Add(this.tabPage15);
-            this.tabControl2.Controls.Add(this.tabPage16);
-            this.tabControl2.Controls.Add(this.tabPage17);
-            this.tabControl2.Location = new System.Drawing.Point(3, 1);
-            this.tabControl2.Name = "tabControl2";
-            this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1123, 346);
-            this.tabControl2.TabIndex = 0;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.vScrollBar1);
-            this.panel6.Controls.Add(this.radioButton11);
-            this.panel6.Controls.Add(this.radioButton10);
-            this.panel6.Controls.Add(this.radioButton9);
-            this.panel6.Controls.Add(this.radioButton8);
-            this.panel6.Controls.Add(this.radioButton7);
-            this.panel6.Controls.Add(this.radioButton6);
-            this.panel6.Controls.Add(this.radioButton5);
-            this.panel6.Controls.Add(this.radioButton4);
-            this.panel6.Controls.Add(this.radioButton3);
-            this.panel6.Location = new System.Drawing.Point(3, 5);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(640, 311);
-            this.panel6.TabIndex = 0;
-            // 
-            // panel7
-            // 
-            this.panel7.Location = new System.Drawing.Point(650, 5);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(464, 311);
-            this.panel7.TabIndex = 1;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton3.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(215, 108);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(147, 70);
-            this.radioButton3.TabIndex = 13;
-            this.radioButton3.Text = "Bàn 5";
-            this.radioButton3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton4.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton4.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(20, 208);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(147, 70);
-            this.radioButton4.TabIndex = 14;
-            this.radioButton4.Text = "Bàn 7";
-            this.radioButton4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton5.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton5.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton5.Location = new System.Drawing.Point(402, 108);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(147, 70);
-            this.radioButton5.TabIndex = 15;
-            this.radioButton5.Text = "Bàn 6";
-            this.radioButton5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton6
-            // 
-            this.radioButton6.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton6.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton6.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton6.Location = new System.Drawing.Point(20, 108);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(147, 70);
-            this.radioButton6.TabIndex = 16;
-            this.radioButton6.Text = "Bàn 4";
-            this.radioButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // radioButton7
-            // 
-            this.radioButton7.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton7.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton7.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton7.Location = new System.Drawing.Point(402, 15);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(147, 70);
-            this.radioButton7.TabIndex = 17;
-            this.radioButton7.Text = "Bàn 3";
-            this.radioButton7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton7.UseVisualStyleBackColor = true;
-            // 
-            // radioButton8
-            // 
-            this.radioButton8.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton8.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton8.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton8.Location = new System.Drawing.Point(215, 15);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(147, 70);
-            this.radioButton8.TabIndex = 18;
-            this.radioButton8.Text = "Bàn 2";
-            this.radioButton8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton9.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton9.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton9.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton9.Location = new System.Drawing.Point(20, 15);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(147, 70);
-            this.radioButton9.TabIndex = 19;
-            this.radioButton9.Text = "Bàn 1";
-            this.radioButton9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton9.UseVisualStyleBackColor = true;
-            // 
-            // radioButton10
-            // 
-            this.radioButton10.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton10.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton10.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton10.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton10.Location = new System.Drawing.Point(402, 208);
-            this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(147, 70);
-            this.radioButton10.TabIndex = 20;
-            this.radioButton10.Text = "Bàn 9";
-            this.radioButton10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton10.UseVisualStyleBackColor = true;
-            // 
-            // radioButton11
-            // 
-            this.radioButton11.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton11.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton11.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.radioButton11.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton11.Location = new System.Drawing.Point(215, 208);
-            this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(147, 70);
-            this.radioButton11.TabIndex = 21;
-            this.radioButton11.Text = "Bàn 8";
-            this.radioButton11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.radioButton11.UseVisualStyleBackColor = true;
-            // 
-            // vScrollBar1
-            // 
-            this.vScrollBar1.Location = new System.Drawing.Point(611, -2);
-            this.vScrollBar1.Name = "vScrollBar1";
-            this.vScrollBar1.Size = new System.Drawing.Size(21, 309);
-            this.vScrollBar1.TabIndex = 22;
+            this.textBox14.Location = new System.Drawing.Point(332, 71);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(56, 22);
+            this.textBox14.TabIndex = 13;
+            this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Giaodien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1158, 555);
+            this.ClientSize = new System.Drawing.Size(1150, 605);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label17);
@@ -912,14 +1109,17 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage10.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
+            this.tabPage10.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             this.panel6.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -959,8 +1159,6 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker4;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.ToolStripMenuItem hệThốngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thêmTàiKhoảnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sửaThôngTinToolStripMenuItem;
@@ -969,22 +1167,11 @@
         private System.Windows.Forms.ToolStripMenuItem thuNgânToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem củaHàngToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.IO.FileSystemWatcher fileSystemWatcher1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabControl tabControl2;
         private System.Windows.Forms.TabPage tabPage10;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.RadioButton radioButton11;
-        private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.RadioButton radioButton9;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.TabPage tabPage11;
         private System.Windows.Forms.TabPage tabPage12;
         private System.Windows.Forms.TabPage tabPage13;
@@ -1000,6 +1187,35 @@
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage18;
         private System.Windows.Forms.TabPage tabPage19;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.VScrollBar vScrollBar1;
+        private System.Windows.Forms.RadioButton radioButton11;
+        private System.Windows.Forms.RadioButton radioButton10;
+        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox13;
     }
 }

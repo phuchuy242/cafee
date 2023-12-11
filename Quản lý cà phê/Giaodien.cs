@@ -106,6 +106,35 @@ namespace Quản_lý_cà_phê
         {
 
         }
-    }
 
+        private void thuNgânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
 }
